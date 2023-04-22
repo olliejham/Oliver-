@@ -1,0 +1,12 @@
+import numpy as np
+arr = np.random.rand(5, 5)
+print("Array:")
+print(arr)
+print("\nElement at (2, 3):")
+print(arr[1, 2])
+print("\nSum of all elements:")
+print(np.sum(arr))
+print("\nMean of each row:")
+print(np.mean(arr, axis=1))
+print("\nMaximum value in each column:")
+print(np.max(arr, axis=0))
